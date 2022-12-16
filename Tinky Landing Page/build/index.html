@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tinky</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body class="dark:bg-slate-900">
+    <!-- Nav bar -->
+    <div class="container mx-auto p-6">
+      <!-- Flex container -->
+      <section
+        class="text-center dark:mx-auto md:flex md:flex-row md:justify-between dark:md:bg-teal-800"
+      >
+        <!-- Logo -->
+
+        <div class="flex flex-row justify-center dark:hidden md:ml-16">
+          <img src="img/logo-white.png" alt="logo" class="h-20" />
+        </div>
+
+        <div
+          class="hidden justify-center dark:mx-auto dark:flex dark:flex-row dark:bg-teal-800 dark:md:ml-16"
+        >
+          <img src="img/logo-dark.png" alt="logo" class="h-20" />
+        </div>
+
+        <!-- Menu item -->
+        <div
+          class="mt-8 text-xs font-bold uppercase sm:text-sm sm:font-medium md:mr-10"
+        >
+          <a
+            href="https://github.com/Yemzyking"
+            target="_blank"
+            class="p-2 text-slate-700 hover:text-violet-700 dark:text-slate-100 dark:hover:text-violet-300 sm:p-4 dark:md:hover:text-violet-400"
+            >Home</a
+          >
+          <a
+            href="https://github.com/Yemzyking"
+            target="_blank"
+            class="p-2 text-slate-700 hover:text-violet-700 dark:text-slate-100 dark:hover:text-violet-300 sm:p-4 dark:md:hover:text-violet-400"
+            >In-Store</a
+          >
+          <a
+            href="https://github.com/Yemzyking"
+            target="_blank"
+            class="p-2 text-slate-700 hover:text-violet-700 dark:text-slate-100 dark:hover:text-violet-300 sm:p-4 dark:md:hover:text-violet-400"
+            >Women</a
+          >
+          <a
+            href="https://github.com/Yemzyking"
+            target="_blank"
+            class="p-2 text-slate-700 hover:text-violet-700 dark:text-slate-100 dark:hover:text-violet-300 sm:p-4 dark:md:hover:text-violet-400"
+            >Lifestyle</a
+          >
+
+          <div
+            class="my-5 flex justify-center hover:scale-110 sm:my-0 sm:inline-block"
+          >
+            <a
+              href="https://github.com/Yemzyking"
+              target="_blank"
+              class="rounded-full bg-[#f34076] p-2 text-slate-100 hover:bg-[#e71c6a] hover:text-slate-100 sm:p-3 md:text-sm"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="inline-block h-5 w-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                />
+              </svg>
+              Cart ( 7 )
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- Main navigation -->
+
+      <section class="mt-24 md:flex md:flex-row lg:mt-14">
+        <div
+          class="flex flex-col items-center justify-center md:ml-16 md:-mt-10 md:w-2/5"
+        >
+          <h2
+            class="mb-7 -mt-10 text-center font-serif text-4xl text-slate-800 dark:text-slate-300 sm:text-5xl md:mt-0 md:self-start md:text-left md:text-6xl"
+          >
+            Fashion That Makes a
+            <strong
+              class="cursor-pointer text-violet-700 hover:text-violet-600 dark:text-violet-600 dark:hover:text-slate-100"
+              >Statement</strong
+            >
+          </h2>
+          <p
+            class="text-lg uppercase tracking-wide text-slate-700 dark:text-slate-200 md:self-start md:text-left"
+          >
+            Elevating style
+          </p>
+          <p
+            class="flex-wrap font-semibold uppercase tracking-wide text-[#33adad] md:mb-5 md:self-start md:text-left"
+          >
+            One outfit at a time
+          </p>
+
+          <div class="flex hover:scale-y-105 md:flex-row md:self-start">
+            <a
+              href="https://github.com/Yemzyking"
+              target="_blank"
+              class="my-5 rounded-full bg-gradient-to-r from-[#f34076] to-[#e71c6a] py-3 px-4 text-sm uppercase text-slate-100 hover:bg-gradient-to-l md:self-start md:py-4 md:px-8 md:text-xl"
+            >
+              Shop Now
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="inline-block h-5 w-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6 6h.008v.008H6V6z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <!-- Hero image -->
+        <div class="md:w-3/5">
+          <img src="img/hero-img.svg" class="w-full" alt="hero-image" />
+        </div>
+      </section>
+
+      <!-- What's new -->
+      <div class="mt-20 mb-2">
+        <div class="flex flex-row justify-between">
+          <a
+            href="https://github.com/Yemzyking"
+            target="_blank"
+            class="mb-1.5 text-sm font-semibold uppercase hover:text-violet-700 dark:text-slate-200 dark:hover:text-violet-400 sm:text-lg sm:font-normal lg:text-2xl"
+          >
+            what's new men 🎩</a
+          >
+          <a
+            href="https://github.com/Yemzyking"
+            target="_blank"
+            class="flex-row text-sm font-semibold hover:text-violet-700 dark:text-slate-200 dark:hover:text-violet-400 sm:text-lg sm:font-normal lg:text-2xl"
+          >
+            Discover More
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="-ml-1 inline-block h-4 w-4 lg:h-6 lg:w-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Mens collection 🎩-->
+      <section
+        class="grid grid-flow-row grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+      >
+        <!-- Product 1 -->
+        <div class="rounded-lg shadow-lg">
+          <a href="https://github.com/Yemzyking" target="_blank">
+            <img
+              src="img/m-product1.jpg"
+              class="rounded-t-lg"
+              alt="m-product1"
+            />
+          </a>
+          <div class="rounded-lg bg-slate-100 p-5 dark:bg-slate-800">
+            <h3>
+              <a
+                href="https://github.com/Yemzyking"
+                target="_blank"
+                class="hover:text-violet-700 dark:text-slate-200 dark:hover:text-violet-400"
+                >White-T-Shirt</a
+              >
+            </h3>
+            <div class="my-3 flex flex-row">
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-slate-600 shadow-md hover:bg-slate-800 dark:hover:bg-slate-500"
+              ></div>
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-blue-600 shadow-md hover:bg-blue-800"
+              ></div>
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-slate-200 shadow-md hover:bg-slate-50 dark:hover:bg-slate-50"
+              ></div>
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-red-600 shadow-md hover:bg-red-500"
+              ></div>
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-yellow-500 shadow-md hover:bg-yellow-600"
+              ></div>
+            </div>
+            <div class="my-3 flex flex-row">
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                XL
+              </div>
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                XXL
+              </div>
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                L
+              </div>
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                M
+              </div>
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                S
+              </div>
+            </div>
+
+            <!-- Buttons -->
+            <div class="flex flex-col justify-between md:flex-row">
+              <a
+                href="https://github.com/Yemzyking"
+                target="_blank"
+                class="my-2 flex flex-row justify-center rounded-full bg-gradient-to-r from-[#c9168b] to-[#e71c6a] py-2 px-4 text-xs text-slate-100 hover:bg-gradient-to-l"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="mr-1 h-5 w-5"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                  />
+                </svg>
+                Add to cart
+              </a>
+
+              <a
+                href="https://github.com/Yemzyking"
+                target="_blank"
+                class="my-2 flex flex-row justify-center rounded-full bg-violet-700 py-2 px-4 text-xs text-slate-100 hover:bg-violet-800"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="mr-1 h-4 w-4"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                  />
+                </svg>
+                View Details
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="rounded-lg shadow-lg">
+          <a href="#">
+            <img
+              src="img/m-product2.jpg"
+              class="rounded-t-lg"
+              alt="m-product1"
+            />
+          </a>
+          <div class="rounded-lg bg-slate-100 p-5 dark:bg-slate-800">
+            <h3>
+              <a
+                href="https://github.com/Yemzyking"
+                target="_blank"
+                class="hover:text-violet-700 dark:text-slate-200 dark:hover:text-violet-400"
+                >Slim Khaki Trousers</a
+              >
+            </h3>
+            <div class="my-3 flex flex-row">
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-slate-600 shadow-md hover:bg-slate-800 dark:hover:bg-slate-500"
+              ></div>
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-blue-600 shadow-md hover:bg-blue-800"
+              ></div>
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-slate-200 shadow-md hover:bg-slate-50 dark:hover:bg-slate-50"
+              ></div>
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-red-600 shadow-md hover:bg-red-500"
+              ></div>
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-yellow-500 shadow-md hover:bg-yellow-600"
+              ></div>
+            </div>
+            <div class="my-3 flex flex-row">
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                XL
+              </div>
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                XXL
+              </div>
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                L
+              </div>
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                M
+              </div>
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                S
+              </div>
+            </div>
+
+            <!-- Buttons -->
+            <div class="flex flex-col justify-between md:flex-row">
+              <a
+                href="https://github.com/Yemzyking"
+                target="_blank"
+                class="my-2 flex flex-row justify-center rounded-full bg-gradient-to-r from-[#c9168b] to-[#e71c6a] py-2 px-4 text-xs text-slate-100 hover:bg-gradient-to-l"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="mr-1 h-5 w-5"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                  />
+                </svg>
+                Add to cart
+              </a>
+
+              <a
+                href="https://github.com/Yemzyking"
+                target="_blank"
+                class="my-2 flex flex-row justify-center rounded-full bg-violet-700 py-2 px-4 text-xs text-slate-100 hover:bg-violet-800"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="mr-1 h-4 w-4"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                  />
+                </svg>
+                View Details
+              </a>
+            </div>
+          </div>
+
+          <!-- Product 3 -->
+        </div>
+        <div class="rounded-lg shadow-lg">
+          <a href="#">
+            <img
+              src="img/m-product3.jpg"
+              class="rounded-t-lg"
+              alt="m-product1"
+            />
+          </a>
+          <div class="rounded-lg bg-slate-100 p-5 dark:bg-slate-800">
+            <h3>
+              <a
+                href="#"
+                class="hover:text-violet-700 dark:text-slate-200 dark:hover:text-violet-400"
+                >Nike Shoes</a
+              >
+            </h3>
+            <div class="my-3 flex flex-row">
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-slate-600 shadow-md hover:bg-slate-800 dark:hover:bg-slate-500"
+              ></div>
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-blue-600 shadow-md hover:bg-blue-800"
+              ></div>
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-slate-200 shadow-md hover:bg-slate-50 dark:hover:bg-slate-50"
+              ></div>
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-red-600 shadow-md hover:bg-red-500"
+              ></div>
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-yellow-500 shadow-md hover:bg-yellow-600"
+              ></div>
+            </div>
+            <div class="my-3 flex flex-row">
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                XL
+              </div>
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                XXL
+              </div>
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                L
+              </div>
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                M
+              </div>
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                S
+              </div>
+            </div>
+
+            <!-- Buttons -->
+            <div class="flex flex-col justify-between md:flex-row">
+              <a
+                href="#"
+                class="my-2 flex flex-row justify-center rounded-full bg-gradient-to-r from-[#c9168b] to-[#e71c6a] py-2 px-4 text-xs text-slate-100 hover:bg-gradient-to-l"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="mr-1 h-5 w-5"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                  />
+                </svg>
+                Add to cart
+              </a>
+
+              <a
+                href="#"
+                class="my-2 flex flex-row justify-center rounded-full bg-violet-700 py-2 px-4 text-xs text-slate-100 hover:bg-violet-800"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="mr-1 h-4 w-4"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                  />
+                </svg>
+                View Details
+              </a>
+            </div>
+          </div>
+
+          <!-- Product 4 -->
+        </div>
+        <div class="rounded-lg shadow-lg">
+          <a href="#">
+            <img
+              src="img/m-product4.jpg"
+              class="rounded-t-lg"
+              alt="m-product1"
+            />
+          </a>
+          <div class="rounded-lg bg-slate-100 p-5 dark:bg-slate-800">
+            <h3>
+              <a
+                href="#"
+                class="hover:text-violet-700 dark:text-slate-200 dark:hover:text-violet-400"
+                >Wrist Watch</a
+              >
+            </h3>
+            <div class="my-3 flex flex-row">
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-slate-600 shadow-md hover:bg-slate-800 dark:hover:bg-slate-500"
+              ></div>
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-blue-600 shadow-md hover:bg-blue-800"
+              ></div>
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-slate-200 shadow-md hover:bg-slate-50 dark:hover:bg-slate-50"
+              ></div>
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-red-600 shadow-md hover:bg-red-500"
+              ></div>
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-yellow-500 shadow-md hover:bg-yellow-600"
+              ></div>
+            </div>
+            <div class="my-3 flex flex-row">
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                XL
+              </div>
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                XXL
+              </div>
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                L
+              </div>
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                M
+              </div>
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                S
+              </div>
+            </div>
+
+            <!-- Buttons -->
+            <div class="flex flex-col justify-between md:flex-row">
+              <a
+                href="#"
+                class="my-2 flex flex-row justify-center rounded-full bg-gradient-to-r from-[#c9168b] to-[#e71c6a] py-2 px-4 text-xs text-slate-100 hover:bg-gradient-to-l"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="mr-1 h-5 w-5"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                  />
+                </svg>
+                Add to cart
+              </a>
+
+              <a
+                href="#"
+                class="my-2 flex flex-row justify-center rounded-full bg-violet-700 py-2 px-4 text-xs text-slate-100 hover:bg-violet-800"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="mr-1 h-4 w-4"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                  />
+                </svg>
+                View Details
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- What's new -->
+      <div class="mt-28 mb-2">
+        <div class="flex flex-row justify-between">
+          <a
+            href="#"
+            class="mb-1.5 text-sm font-semibold uppercase hover:text-violet-700 dark:text-slate-200 dark:hover:text-violet-400 sm:text-lg sm:font-normal lg:text-2xl"
+          >
+            what's new women 💃</a
+          >
+          <a
+            href="#"
+            class="flex-row text-sm font-semibold hover:text-violet-700 dark:text-slate-200 dark:hover:text-violet-400 sm:text-lg sm:font-normal lg:text-2xl"
+          >
+            Discover More
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="-ml-1 inline-block h-4 w-4 lg:h-6 lg:w-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Women's collection 💃 -->
+      <section
+        class="grid grid-flow-row grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+      >
+        <!-- Product 1 -->
+        <div class="rounded-lg shadow-lg">
+          <a href="#">
+            <img
+              src="img/f-product1.jpg"
+              class="rounded-t-lg"
+              alt="m-product1"
+            />
+          </a>
+          <div class="rounded-lg bg-slate-100 p-5 dark:bg-slate-800">
+            <h3>
+              <a
+                href="#"
+                class="hover:text-violet-700 dark:text-slate-200 dark:hover:text-violet-400"
+                >V Neck Tassel Cape</a
+              >
+            </h3>
+            <div class="my-3 flex flex-row">
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-slate-600 shadow-md hover:bg-slate-800 dark:hover:bg-slate-500"
+              ></div>
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-blue-600 shadow-md hover:bg-blue-800"
+              ></div>
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-slate-200 shadow-md hover:bg-slate-50 dark:hover:bg-slate-50"
+              ></div>
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-red-600 shadow-md hover:bg-red-500"
+              ></div>
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-yellow-500 shadow-md hover:bg-yellow-600"
+              ></div>
+            </div>
+            <div class="my-3 flex flex-row">
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                XL
+              </div>
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                XXL
+              </div>
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                L
+              </div>
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                M
+              </div>
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                S
+              </div>
+            </div>
+
+            <!-- Buttons -->
+            <div class="flex flex-col justify-between md:flex-row">
+              <a
+                href="#"
+                class="my-2 flex flex-row justify-center rounded-full bg-gradient-to-r from-[#c9168b] to-[#e71c6a] py-2 px-4 text-xs text-slate-100 hover:bg-gradient-to-l"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="mr-1 h-5 w-5"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                  />
+                </svg>
+                Add to cart
+              </a>
+
+              <a
+                href="#"
+                class="my-2 flex flex-row justify-center rounded-full bg-violet-700 py-2 px-4 text-xs text-slate-100 hover:bg-violet-800"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="mr-1 h-4 w-4"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                  />
+                </svg>
+                View Details
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="rounded-lg shadow-lg">
+          <a href="#">
+            <img
+              src="img/f-product2.jpg"
+              class="rounded-t-lg"
+              alt="m-product1"
+            />
+          </a>
+          <div class="rounded-lg bg-slate-100 p-5 dark:bg-slate-800">
+            <h3>
+              <a
+                href="#"
+                class="hover:text-violet-700 dark:text-slate-200 dark:hover:text-violet-400"
+                >Printed Wrap Dress</a
+              >
+            </h3>
+            <div class="my-3 flex flex-row">
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-slate-600 shadow-md hover:bg-slate-800 dark:hover:bg-slate-500"
+              ></div>
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-blue-600 shadow-md hover:bg-blue-800"
+              ></div>
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-slate-200 shadow-md hover:bg-slate-50 dark:hover:bg-slate-50"
+              ></div>
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-red-600 shadow-md hover:bg-red-500"
+              ></div>
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-yellow-500 shadow-md hover:bg-yellow-600"
+              ></div>
+            </div>
+            <div class="my-3 flex flex-row">
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                XL
+              </div>
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                XXL
+              </div>
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                L
+              </div>
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                M
+              </div>
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                S
+              </div>
+            </div>
+
+            <!-- Buttons -->
+            <div class="flex flex-col justify-between md:flex-row">
+              <a
+                href="#"
+                class="my-2 flex flex-row justify-center rounded-full bg-gradient-to-r from-[#c9168b] to-[#e71c6a] py-2 px-4 text-xs text-slate-100 hover:bg-gradient-to-l"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="mr-1 h-5 w-5"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                  />
+                </svg>
+                Add to cart
+              </a>
+
+              <a
+                href="#"
+                class="my-2 flex flex-row justify-center rounded-full bg-violet-700 py-2 px-4 text-xs text-slate-100 hover:bg-violet-800"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="mr-1 h-4 w-4"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                  />
+                </svg>
+                View Details
+              </a>
+            </div>
+          </div>
+
+          <!-- Product 3 -->
+        </div>
+        <div class="rounded-lg shadow-lg">
+          <a href="#">
+            <img
+              src="img/f-product3.jpg"
+              class="rounded-t-lg"
+              alt="m-product1"
+            />
+          </a>
+          <div class="rounded-lg bg-slate-100 p-5 dark:bg-slate-800">
+            <h3>
+              <a
+                href="#"
+                class="hover:text-violet-700 dark:text-slate-200 dark:hover:text-violet-400"
+                >Blue Denim Dress</a
+              >
+            </h3>
+            <div class="my-3 flex flex-row">
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-slate-600 shadow-md hover:bg-slate-800 dark:hover:bg-slate-500"
+              ></div>
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-blue-600 shadow-md hover:bg-blue-800"
+              ></div>
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-slate-200 shadow-md hover:bg-slate-50 dark:hover:bg-slate-50"
+              ></div>
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-red-600 shadow-md hover:bg-red-500"
+              ></div>
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-yellow-500 shadow-md hover:bg-yellow-600"
+              ></div>
+            </div>
+            <div class="my-3 flex flex-row">
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                XL
+              </div>
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                XXL
+              </div>
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                L
+              </div>
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                M
+              </div>
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                S
+              </div>
+            </div>
+
+            <!-- Buttons -->
+            <div class="flex flex-col justify-between md:flex-row">
+              <a
+                href="#"
+                class="my-2 flex flex-row justify-center rounded-full bg-gradient-to-r from-[#c9168b] to-[#e71c6a] py-2 px-4 text-xs text-slate-100 hover:bg-gradient-to-l"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="mr-1 h-5 w-5"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                  />
+                </svg>
+                Add to cart
+              </a>
+
+              <a
+                href="#"
+                class="my-2 flex flex-row justify-center rounded-full bg-violet-700 py-2 px-4 text-xs text-slate-100 hover:bg-violet-800"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="mr-1 h-4 w-4"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                  />
+                </svg>
+                View Details
+              </a>
+            </div>
+          </div>
+
+          <!-- Product 4 -->
+        </div>
+        <div class="rounded-lg shadow-lg">
+          <a href="#">
+            <img
+              src="img/f-product4.jpg"
+              class="rounded-t-lg"
+              alt="m-product1"
+            />
+          </a>
+          <div class="rounded-lg bg-slate-100 p-5 dark:bg-slate-800">
+            <h3>
+              <a
+                href="#"
+                class="hover:text-violet-700 dark:text-slate-200 dark:hover:text-violet-400"
+                >High Waist Denim Skirt</a
+              >
+            </h3>
+            <div class="my-3 flex flex-row">
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-slate-600 shadow-md hover:bg-slate-800 dark:hover:bg-slate-500"
+              ></div>
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-blue-600 shadow-md hover:bg-blue-800"
+              ></div>
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-slate-200 shadow-md hover:bg-slate-50 dark:hover:bg-slate-50"
+              ></div>
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-red-600 shadow-md hover:bg-red-500"
+              ></div>
+              <div
+                class="mr-2 h-5 w-5 rounded-full bg-yellow-500 shadow-md hover:bg-yellow-600"
+              ></div>
+            </div>
+            <div class="my-3 flex flex-row">
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                XL
+              </div>
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                XXL
+              </div>
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                L
+              </div>
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                M
+              </div>
+              <div
+                class="mr-2 cursor-pointer rounded-md border-2 border-gray-400 px-2 py-1 text-xs text-slate-500 hover:border-gray-600 hover:text-black dark:hover:text-gray-200"
+              >
+                S
+              </div>
+            </div>
+
+            <!-- Buttons -->
+            <div class="flex flex-col justify-between md:flex-row">
+              <a
+                href="#"
+                class="my-2 flex flex-row justify-center rounded-full bg-gradient-to-r from-[#c9168b] to-[#e71c6a] py-2 px-4 text-xs text-slate-100 hover:bg-gradient-to-l"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="mr-1 h-5 w-5"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                  />
+                </svg>
+                Add to cart
+              </a>
+
+              <a
+                href="#"
+                class="my-2 flex flex-row justify-center rounded-full bg-violet-700 py-2 px-4 text-xs text-slate-100 hover:bg-violet-800"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="mr-1 h-4 w-4"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                  />
+                </svg>
+                View Details
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Newsletter -->
+      <section class="my-20 flex flex-row rounded-lg shadow-lg">
+        <div
+          class="w-full rounded-xl bg-gradient-to-r from-slate-800 via-violet-800 to-[#c9168b] p-12 text-slate-100 lg:w-3/5 lg:from-slate-800 lg:via-violet-800 lg:to-transparent"
+        >
+          <div class="lg:w-1/2">
+            <h3
+              class="mb-4 cursor-pointer text-xl font-bold uppercase hover:text-slate-300"
+            >
+              Subscribe to get our offers
+            </h3>
+            <p class="mb-4 cursor-pointer leading-relaxed text-slate-200">
+              Want to hear from us when we have new offers? Sign up for our
+              newsletter and we'll email you every time we have something
+              special.
+            </p>
+            <div>
+              <input
+                type="email"
+                placeholder="enter email address..."
+                class="mb-4 w-full rounded-lg bg-slate-500 px-4 py-3 text-slate-200 placeholder-slate-300 focus:outline-none"
+              />
+              <a href="#">
+                <button
+                  type="submit"
+                  class="w-full rounded-lg bg-gradient-to-r from-[#f34076] to-[#e71c6a] py-3 uppercase text-slate-300 hover:bg-gradient-to-l hover:text-slate-100"
+                >
+                  Subscribe
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="hidden lg:flex lg:w-2/5 lg:flex-row">
+          <img
+            src="img/subscribe-banner.png"
+            class="h-96"
+            alt="subscribe-banner"
+          />
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <div
+          class="flex flex-col border-t-2 border-slate-400 py-4 text-center text-sm sm:flex-row sm:justify-between"
+        >
+          <div>
+            <a
+              href="https://github.com/Yemzyking"
+              target="_blank"
+              class="mx-3 text-black hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-200"
+              >About</a
+            >
+            <a
+              href="https://github.com/Yemzyking"
+              target="_blank"
+              class="mx-3 text-black hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-200"
+              >Privacy Policy</a
+            >
+            <a
+              href="https://github.com/Yemzyking"
+              target="_blank"
+              class="mx-3 text-black hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-200"
+              >Terms of Services</a
+            >
+          </div>
+          <div>
+            <div>
+              <a
+                href="#"
+                class="mx-3 text-black hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-200"
+              >
+                Copyright &copy; 2022</a
+              >
+              <a
+                href="https://github.com/Yemzyking"
+                target="_blank"
+                class="mx-3 text-black hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-200"
+              >
+                All Rights Reserved</a
+              >
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
+<!-- Hello world 💃 -->
+<!-- Day4 #100DaysOfCode -->
